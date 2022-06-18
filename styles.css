@@ -122,7 +122,15 @@ a{
 
 input{
     width: 15rem;
-    height: 1.25rem;   
+    height: 1.25rem;  
+    padding: 1%; 
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid magenta;
 }
 
 button{
@@ -133,4 +141,9 @@ button{
     border-radius: 10px;
     border: none;
     font-size: 1.25rem;
+}
+
+.error{
+    outline: none;
+    border: 2px solid red;
 }
