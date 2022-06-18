@@ -9,25 +9,59 @@ body{
 .container{
     border: 2px solid black;
     height: 90vh;
-    width: 90vw;
+    width: 85vw;
     display: flex;
     flex-direction: row;
 }
 
 .img-section{
     display: flex;
+    flex-direction: column;
     border: 2px solid red;
-    width: 35%;
+    width: 30%;
     height: 100%;
     background-image: url(./images/redclouds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.img-overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    background-color: black;  
+    opacity: 0.6;
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 100%;
+    height: 15%;
+    margin-top: 30%;
+}
+
+.img-overlay > img{
+    height: 80%;
+}
+
+.img-credit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105%;
+    font-size: 1.25rem;
+    font-family: sans-serif; 
+    color: white; 
+}
+
+a{
+    color: white ;
+}
+
 .form-section{
     display: flex;
     border: 2px solid purple;
-    width: 65%;
+    width: 70%;
     height: auto;
     margin: 10px;
 }
