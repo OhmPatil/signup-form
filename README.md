@@ -1,7 +1,7 @@
 # Sign-Up Form
 
-##### Form made using HTML, CSS.
-##### Used JavaScript for password validation.
+#### Form made using HTML, CSS.
+#### Used JavaScript for password validation.
 
 ![](images/screenshot.png)
 
