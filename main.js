@@ -22,6 +22,20 @@ confirm_password.addEventListener('keyup', function(){
     }
 })
 
+password.addEventListener('keyup', function(){
+    if (password.value != confirm_password.value){
+        password.classList.add('error')
+        confirm_password.classList.add('error')
+        pw_error.textContent = "*Passwords must match"
+    }
+
+    if (password.value == confirm_password.value){
+        password.classList.remove('error')
+        confirm_password.classList.remove('error')
+        pw_error.textContent = ''
+    }
+})
+
 document.querySelector('form').onsubmit = function(){
     console.log('works');
     return false
